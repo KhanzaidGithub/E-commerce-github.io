@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#17679691, rgba(0, 0, 0, 0.479)), url(./images/home1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    height: 103px;
+    justify-content: space-between;
+    background-color: #146390a6;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    margin-left: 18px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #f2f5f8;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+
+.logo-img {
+    width: 140px;
+    cursor: pointer;
+    MARGIN-TOP: 25PX;
+}
+
+.fa-user {
+    font-size: 22px;
+    color: white;
+}
+
+/*Header-Contnet*/
+.header-content {
+    position: absolute;
+    top: 32%;
+    left: 12%;
+    color: white;
+    text-align: left;
+    font-size: 38px;
+    line-height: 100px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+
+.header-content h2 {
+    color: white;
+    font-family: "lato", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header-btn {
+    padding: 18px 28px 18px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.header-btn1 {
+    background-color: white;
+    border: none;
+}
+
+.header-btn1:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.header-btn2 {
+    background-color: transparent;
+    color: white;
+    margin-left: 15px;
+}
+
+.header-btn2:hover {
+    background-color: white;
+    color: black;
+}
