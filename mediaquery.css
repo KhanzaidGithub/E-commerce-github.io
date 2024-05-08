@@ -1,0 +1,112 @@
+/* 
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+*/
+
+/*Humburger Button*/
+/*This is for media query*/
+.humburger {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    background-color: white;
+    height: 5px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+    .header.main-header {
+        background-image: linear-gradient(#176796b0, rgba(0, 0, 0, 0.39)), url(./images/home1.jpg);
+        height: 50%;
+        width: 100vw;
+    }
+
+
+    .nav.container-fluid {
+        background-color: white;
+        align-items: center;
+    }
+
+
+
+    .logo-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    .logo-img .logo2 {
+        display: block;
+    }
+
+
+    .nav .menu {
+        display: none;
+    }
+
+    .fa-user {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bar {
+        background-color: black;
+    }
+
+    .header .header-content {
+        top: 20%;
+        left: 0px;
+    }
+
+    .header-txt .header-txt1 {
+        color: white;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .header-txt .header-txt2 {
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .header-btn-div {
+        width: 100%;
+    }
+
+    .header-btn-div .header-btn {
+        width: 80%;
+        margin: auto;
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+}
+
+
+
+/*Next part*/
+
+/* @media screen and (min-width: 481px) and (max-width: 768px)  */

@@ -13,11 +13,22 @@
 
 .nav {
     display: flex;
-    align-items: center;
     padding: 0px 80px;
-    height: 103px;
+    height: 90px;
+    width: 100%;
     justify-content: space-between;
     background-color: #146390a6;
+    flex-wrap: wrap;
+    align-items: center center;
+}
+
+.logo1 {
+    width: 140px;
+    cursor: pointer;
+}
+
+.logo2 {
+    display: none;
 }
 
 .menu {
@@ -48,44 +59,48 @@
 }
 
 
-.logo-img {
-    width: 140px;
-    cursor: pointer;
-    MARGIN-TOP: 25PX;
-}
-
 .fa-user {
     font-size: 22px;
     color: white;
+    cursor: pointer;
 }
 
 /*Header-Contnet*/
 .header-content {
     position: absolute;
     top: 32%;
-    left: 12%;
+    left: 15%;
     color: white;
     text-align: left;
-    font-size: 38px;
-    line-height: 100px;
-    font-weight: 500;
     font-family: "Lato", sans-serif;
 }
 
-.header-content h2 {
+.header-txt .header-txt1 {
     color: white;
     font-family: "lato", sans-serif;
-    font-size: 26px;
+    font-size: 65px;
     font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.header-txt .header-txt2 {
+    color: white;
+    font-family: "lato", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 25px 0px;
 }
 
 .header-btn {
-    padding: 18px 28px 18px 28px;
-    font-size: 16px;
+    padding: 16px 25px 16px 25px;
+    font-size: 14px;
     font-weight: 600;
     border: 1px solid white;
     cursor: pointer;
     transition: all 0.5s;
+    border-radius: 0px;
+    width: 135px;
+    margin-top: 10px;
 }
 
 .header-btn1 {
@@ -102,7 +117,8 @@
 .header-btn2 {
     background-color: transparent;
     color: white;
-    margin-left: 15px;
+    margin-left: 12px;
+    /* margin-left: 15px; */
 }
 
 .header-btn2:hover {

@@ -10,29 +10,36 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/3ff35f48ba.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./mediaquery.css">
     <link rel="stylesheet" href="./style.css">
     <title>zks_treasures</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="nav">
-            <div style="display: flex;align-items: center;justify-content: space-between;width:35%;">
+    <div class="header main-header">
+        <div class="nav container-fluid">
+            <div style="display: flex;align-items: center;justify-content: space-between;width:39%;">
                 <div class="logo-img">
-                    <img class="logo" src="./images/logo1.png" alt="Logo">
+                    <img class="logo1" src="./images/logo1.png" alt="Logo1">
+                    <img class="logo2" src="./images/mbl-logo.png" alt="logo2">
                 </div>
-                <div class="menu">
+                <div class="menu" id="menu">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="#">Prodcust</a></li>
+                        <li><a href="#">products</a></li>
 
                     </ul>
                 </div>
             </div>
-            <div style="display: flex; align-items: center;justify-content: space-between;width: 15%;">
-                <div class="menu">
+            <div style="display: flex; align-items: center;justify-content: space-between;width: 20%;">
+                <div class="menu" id="menu">
                     <ul>
                         <li><a href="#">Mens</a></li>
                         <li><a href="#">Contact US</a></li>
@@ -42,14 +49,26 @@
                     <i class="fa-solid fa-user"></i>
                 </div>
             </div>
+            <div class="humburger" id="humburger">
+                <div class="bar" id="bar"></div>
+                <div class="bar" id="bar"></div>
+                <div class="bar" id="bar"></div>
+            </div>
         </div>
         <div class="header-content">
-            <h1>Raining Offers For<br> Hot Summer!</h1>
-            <h2>25% Off On All Products</h2>
-            <button class="header-btn header-btn1">SHOP NOW</button>
-            <button class="header-btn header-btn2">FIND MORE</button>
+            <div class="header-txt">
+                <h1 class="header-txt1">Raining Offers For<br> Hot Summer!</h1>
+                <h2 class="header-txt2">25% Off On All Products</h2>
+            </div>
+            <div class="header-btn-div">
+                <button class="header-btn header-btn1 ">SHOP NOW</button>
+                <button class="header-btn header-btn2 ">FIND MORE</button>
+            </div>
         </div>
     </div>
+    </div>
+    <!--Javascript-->
+    <script src="./script.js"></script>
 </body>
 
 </html>
