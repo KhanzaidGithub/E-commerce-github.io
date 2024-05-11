@@ -37,38 +37,55 @@ Extra large screens, TV – 1201px, and more.
     }
 
     /*Here is another navbar for Mbl*/
-    .mobile-menu {
+    .offscreenmenu {
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .offscreenmenu {
         background-color: black;
         height: 100vh;
         width: 100%;
-        max-width: 450px;
         position: fixed;
-        top: 10px;
-        right: -450px;
+        top: 0;
+        right: -1600px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        transition: 0.5s ease-in;
+        transition: 0.5s ease;
     }
 
-    .mobile-menu ul li {
+
+    .offscreenmenu ul li {
         color: white;
         list-style: none;
+        margin-top: 10px;
     }
 
-    .mobile-menu.active {
+    .offscreenmenu.active {
         right: 0;
     }
 
-    .mbl-navbar {
+    .navbar {
         padding: 1rem;
         display: flex;
         background-color: black;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
     }
 
-    .hum-menu {
+    .navbar h1 {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .hum {
         height: 50px;
         width: 50px;
         margin-left: auto;
@@ -76,7 +93,7 @@ Extra large screens, TV – 1201px, and more.
         cursor: pointer;
     }
 
-    .hum-menu span {
+    .hum span {
         height: 5px;
         width: 100%;
         background-color: white;
@@ -85,26 +102,26 @@ Extra large screens, TV – 1201px, and more.
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        transition: 0.5s ease-in;
+        transition: 0.5s ease;
     }
 
-    .hum-menu span:nth-child(1) {
+    .hum span:nth-child(1) {
         top: 25%;
     }
 
-    .hum-menu span:nth-child(3) {
+    .hum span:nth-child(3) {
         top: 75%;
     }
 
-    .hum-menu.active span:nth-child(1) {
+    .hum.active span:nth-child(1) {
         transform: translate(-50%, -50%)rotate(45deg);
     }
 
-    .hum-menu.active span:nth-child(1) {
+    .hum.active span:nth-child(1) {
         opacity: 0;
     }
 
-    .hum-menu.active span:nth-child(3) {
+    .hum.active span:nth-child(3) {
         top: 50%;
         transform: translate(-50%, -50%)rotate(90deg);
     }

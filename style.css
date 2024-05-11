@@ -73,11 +73,10 @@
 
 /*Mobile Menu*/
 
-.mobile-menu {
+.offscreenmenu{
     display: none;
 }
-
-.hum-menu {
+.navbar{
     display: none;
 }
 

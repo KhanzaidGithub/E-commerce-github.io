@@ -1,5 +1,5 @@
-let hum = document.querySelector('.hum-menu');
-let offscreenmenu = document.querySelector('.mobile-menu');
+let hum = document.querySelector('.hum');
+let offscreenmenu = document.querySelector('.offscreenmenu');
 
 hum.addEventListener('click', () => {
     hum.classList.toggle('active');
