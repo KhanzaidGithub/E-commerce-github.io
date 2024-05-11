@@ -1,7 +1,7 @@
-let burger = document.getElementById('humburger');
-let menu = document.getElementById('menu')
+let hum = document.querySelector('.hum-menu');
+let offscreenmenu = document.querySelector('.mobile-menu');
 
-burger.addEventListener('click', () => {
-    menu.style.display = 'block';
-    burger.classList.toggle("nav", "menu");
+hum.addEventListener('click', () => {
+    hum.classList.toggle('active');
+    offscreenmenu.classList.toggle('active')
 })
