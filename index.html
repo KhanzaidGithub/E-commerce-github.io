@@ -23,7 +23,7 @@
 <body>
     <div class="header main-header">
         <div class="nav container-fluid">
-            <div style="display: flex;align-items: center;justify-content: space-between;width:39%;">
+            <div style="display: flex;align-items: center;justify-content: space-between;width:40%;">
                 <div class="logo-img">
                     <img class="logo1" src="./images/logo1.png" alt="Logo1">
                     <img class="logo2" src="./images/mbl-logo.png" alt="logo2">
@@ -31,14 +31,14 @@
                 <div class="menu" id="menu">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">products</a></li>
 
                     </ul>
                 </div>
             </div>
-            <div style="display: flex; align-items: center;justify-content: space-between;width: 20%;">
+            <div style="display: flex; align-items: center ;justify-content: space-between;width: 25%;">
                 <div class="menu" id="menu">
                     <ul>
                         <li><a href="#">Mens</a></li>
@@ -49,12 +49,27 @@
                     <i class="fa-solid fa-user"></i>
                 </div>
             </div>
-            <div class="humburger" id="humburger">
-                <div class="bar" id="bar"></div>
-                <div class="bar" id="bar"></div>
-                <div class="bar" id="bar"></div>
-            </div>
         </div>
+        <div class="offscreenmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">Mens</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+        </div>
+        <nav>
+            <div class="mbl-logo-img">
+                <img src="./images/mbl-logo.png" alt="">
+            </div>
+            <div class="hum">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
         <div class="header-content">
             <div class="header-txt">
                 <h1 class="header-txt1">Raining Offers For<br> Hot Summer!</h1>
@@ -67,7 +82,73 @@
         </div>
     </div>
     </div>
+    <!-- Header Section Ends Here Products Section Starts -->
+    <!-- Our Partner logo starts her -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <!-- Partner logos go here -->
+                <div>
+                    <img src="./images/partner1.png" alt="Partner 1">
+                </div>
+                <div>
+                    <img src="./images/partner2.png" alt="Partner 1">
+                </div>
+                <div>
+                    <img src="./images/partner3.png" alt="Partner 1">
+                </div>
+                <!-- Add more partner logos as needed -->
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlider(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlider(1)">&#10095;</button>
+    </div>
+
+
+    <!-- Our Partner logo ends here  -->
+
+    <!-- 
+     -->
+
+    <h2 style="color: black; margin: 30px 90px;font-size: 42px;font-weight: 600;">Latest Collection</h2>
+    <div class="latest-products-main-section ">
+        <div class="latest-product1 container w-20%">
+            <div class="latest-content">
+                <h2>20% Off On Tank Tops% </h2>
+                <p>Sleek, innovative, and intuitive - our <br> latest gadget redefines modern convenience.</p>
+                <button class="shop-btn">SHOP NOW</button>
+            </div>
+        </div>
+        <div class="latest-product2 container w-20% border-primary">
+            <div class="latest-content">
+                <h2>20% Off On Tank Tops% </h2>
+                <p>Luxurious, elegant, and cutting-edge <br>- experience the epitome of style.</p>
+                <button class="shop-btn">SHOP NOW</button>
+            </div>
+        </div>
+        <div class="latest-product3 container w-20% border-primary">
+            <div class="latest-content">
+                <h2>20% Off On Tank Tops% </h2>
+                <p>Dynamic, powerful, and versatile <br>the ultimate tool for limitless creativity.</p>
+                <button class="shop-btn">SHOP NOW</button>
+            </div>
+        </div>
+    </div>
     <!--Javascript-->
+    <!-- Main Home page Fixed Section -->
+    <div class="main-fixed-section">
+        <div class="main-fixed-section-content">
+            <h3>Limited Time Offer</h3>
+            <h2>Special Edition</h2>
+            <p>Captivating design, showcasing our latest product. Elevate your experience with innovation, <br> style,
+                and
+                unmatched quality.</p>
+            <h3>Buy This T-shirt At 20% Discount, Use Code OFF20</h3>
+            <button class="shop-btn">SHOP NOW</button>
+        </div>
+        <div></div>
+    </div>
+    <!-- Main Home page Fixed Section -->
     <script src="./script.js"></script>
 </body>
 

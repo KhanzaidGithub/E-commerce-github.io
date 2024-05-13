@@ -20,6 +20,7 @@
     background-color: #146390a6;
     flex-wrap: wrap;
     align-items: center center;
+    color: white;
 }
 
 .logo1 {
@@ -63,7 +64,13 @@
     font-size: 22px;
     color: white;
     cursor: pointer;
+    margin-top: -10px;
 }
+
+/* mobile menu */
+
+
+/* mobile menu */
 
 /*Header-Contnet*/
 .header-content {
@@ -124,4 +131,148 @@
 .header-btn2:hover {
     background-color: white;
     color: black;
+}
+
+/* Header Section Ends Here */
+/* Partners Logos */
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+/*  Main products Section starts from here */
+/* latest Products */
+.latest-products-main-section {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1180px;
+    margin: auto;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.latest-product1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(./images/latest01.jpg);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    padding: 30px;
+}
+
+.latest-product2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(./images/latest02.jpg);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    display: flex;
+    padding: 30px;
+}
+
+.latest-product3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(./images/latest03.jpg);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 30px;
+}
+
+.latest-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    color: white;
+}
+
+.latest-content h2 {
+    font-size: 26px;
+}
+
+.shop-btn {
+    padding: 16px 28px 16px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 0px;
+    width: 140px;
+    margin-top: 10px;
+}
+
+.shop-btn:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Main fixed Section */
+.main-fixed-section {
+    background-image: linear-gradient(to left, transparent, transparent 10%, #2e7db2 90%, #2e7db2), url(./images/fixed-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 100px;
+    background-attachment: fixed;
+}
+
+.main-fixed-section-content h3 {
+    color: white;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-fixed-section-content h2 {
+    font-size: 42px;
+    color: white;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.main-fixed-section-content>p {
+    color: white;
+    margin: 20px 0px;
 }
