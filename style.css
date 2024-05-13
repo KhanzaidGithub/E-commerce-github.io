@@ -174,7 +174,6 @@
 /* latest Products */
 .latest-products-main-section {
     display: flex;
-    flex-wrap: nowrap;
     width: 1180px;
     margin: auto;
     gap: 20px;

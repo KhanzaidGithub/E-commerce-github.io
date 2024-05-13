@@ -164,8 +164,24 @@ Extra large screens, TV – 1201px, and more.
     }
 
     /* latest Products Section */
-    .latest-products-main-section{
+    .latest-collection {
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .latest-products-main-section {
+        display: flex;
         flex-wrap: wrap;
+        width: 1180px;
+        margin: auto;
+        gap: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container.latest-product {
+        background-position: center left;
+
     }
 }
 
