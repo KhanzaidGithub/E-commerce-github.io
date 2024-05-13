@@ -11,7 +11,7 @@
     background-position: center;
 }
 
-.nav {
+.nav.container-fluid {
     display: flex;
     padding: 0px 80px;
     height: 90px;
@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     align-items: center center;
     color: white;
+    align-items: center;
 }
 
 .logo1 {
@@ -34,7 +35,13 @@
 
 .menu {
     display: flex;
+    align-items: center;
+}
 
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .menu ul {
@@ -71,6 +78,17 @@
 
 
 /* mobile menu */
+/*Mobile Menu*/
+
+.offscreenmenu {
+    display: none;
+}
+
+.navbar {
+    display: none;
+}
+
+/*Mobile Menu*/
 
 /*Header-Contnet*/
 .header-content {

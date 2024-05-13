@@ -31,7 +31,6 @@ Extra large screens, TV – 1201px, and more.
 
     }
 
-
     .nav.container-fluid {
         display: none;
     }
@@ -88,6 +87,59 @@ Extra large screens, TV – 1201px, and more.
         width: 100px;
     }
 
+    nav.container-fluid.main-navbar {
+        display: none;
+    }
+
+    /*Here is another navbar for Mbl*/
+    .offscreenmenu {
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .offscreenmenu {
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: -1600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        transition: 0.5s ease;
+    }
+
+
+    .offscreenmenu ul li {
+        color: white;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .offscreenmenu.active {
+        right: 0;
+    }
+
+    .navbar {
+        padding: 1rem;
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .navbar h1 {
+        font-size: 2rem;
+        color: white;
+    }
+
     .hum {
         height: 50px;
         width: 50px;
@@ -101,12 +153,14 @@ Extra large screens, TV – 1201px, and more.
         height: 5px;
         width: 100%;
         background-color: black;
+        background-color: white;
         border-radius: 25px;
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
         transition: 0.5s ease-in;
+        transition: 0.5s ease;
     }
 
     .hum span:nth-child(1) {
@@ -125,6 +179,10 @@ Extra large screens, TV – 1201px, and more.
     }
 
     .hum.active span:nth-child(2) {
+        transform: translate(-50%, -50%)rotate(45deg);
+    }
+
+    .hum.active span:nth-child(1) {
         opacity: 0;
     }
 
@@ -135,6 +193,8 @@ Extra large screens, TV – 1201px, and more.
     }
 
     /*  */
+
+    /*here the Mobile navbar ends*/
     .header .header-content {
         top: 20%;
         left: 0px;

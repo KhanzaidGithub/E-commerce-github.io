@@ -6,3 +6,8 @@ hum.addEventListener('click', () => {
     offscreenmenu.classList.toggle('active')
 });
 
+
+hum.addEventListener('click', () => {
+    hum.classList.toggle('active');
+    offscreenmenu.classList.toggle('active')
+})
