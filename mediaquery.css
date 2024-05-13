@@ -28,7 +28,7 @@ Extra large screens, TV – 1201px, and more.
 @media (max-width: 480px) {
     .header.main-header {
         background-image: linear-gradient(#176796b0, rgba(0, 0, 0, 0.39)), url(./images/home1.jpg);
-     
+
     }
 
 

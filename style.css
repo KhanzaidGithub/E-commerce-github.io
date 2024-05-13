@@ -137,15 +137,18 @@
 /* Partners Logos */
 .slider-container {
     position: relative;
-    width: 100%;
+    width: 80%;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .slide {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
 .prev,
