@@ -162,6 +162,22 @@ Extra large screens, TV – 1201px, and more.
         margin-left: 45px;
         margin-top: 10px;
     }
+
+    /* Main fixed Section Starts */
+    .main-fixed-section {
+        background-image: linear-gradient(to left, transparent, transparent 10%, #2e7db2 90%, #2e7db2), url(./images/fixed-banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 500px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 0px 100px;
+    }
+
+    /* Main fixed Section Ends */
 }
 
 
