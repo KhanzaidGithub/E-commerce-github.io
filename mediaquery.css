@@ -74,6 +74,14 @@ Extra large screens, TV – 1201px, and more.
         right: 0;
     }
 
+    .offscreenmenu.container ul li {
+        display: block;
+    }
+
+    .mbl-logo-img img {
+        display: block;
+    }
+
     nav {
         padding: 1rem;
         display: flex;
@@ -81,8 +89,6 @@ Extra large screens, TV – 1201px, and more.
         justify-content: space-between;
         align-items: center;
     }
-
-
 
     nav img {
         width: 100px;

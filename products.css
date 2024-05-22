@@ -3,6 +3,72 @@
     margin: 0px;
 }
 
+/*Navbar Starts*/
+.nav {
+    display: flex;
+    padding: 0px 80px;
+    height: 90px;
+    justify-content: space-between;
+    background-color: #146390da;
+    flex-wrap: wrap;
+    align-items: center center;
+    color: white;
+}
+
+.logo1 {
+    width: 140px;
+    cursor: pointer;
+}
+
+.logo2 {
+    display: none;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    margin-left: 18px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #f2f5f8;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+
+.fa-user {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+/* mobile menu */
+.offscreenmenu ul li {
+    display: none;
+}
+
+.mbllogo {
+    display: none;
+}
+
+/*NavBar Ends*/
 .main {
     display: flex;
     background-color: #f5f7f9;
