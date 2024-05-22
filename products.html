@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ff35f48ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./products.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="left-filter-section">
+            <div class="filter-div">
+                <input type="text" placeholder="Search Products.." id="input">
+                <button id="search-btn" onclick="search()"><i class="fa-solid fa-angle-right"></i></button>
+                <div class="category">
+                    <h2>Categories</h2>
+                    <div class="cat1">
+                        <h3 onclick="accessories()">Accessories</h3>
+                        <h3>(7)</h2>
+                    </div>
+                    <div class="cat1">
+                        <h3 onclick="mens()">Men's</h3>
+                        <h3>(4)</h3>
+                    </div>
+                    <div class="cat1">
+                        <h3 onclick="women()">Women</h3>
+                        <h3>(2)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="best-seller-section">
+                <h2>Our Best Products</h2>
+                <!--Seller Starts-->
+                <div class="seller">
+                    <div class="best--seller-product-img">
+                        <img src="./image/prod13.jpg" alt="">
+                    </div>
+                    <div class="best-seller-des">
+                        <h3>Blue Denim Jeans</h3>
+                        <p class="best-seller-rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    </div>
+                </div>
+                <!--Seller Ends-->
+                <div class="seller">
+                    <div class="best--seller-product-img">
+                        <img src="./image/prod14.jpg" alt="">
+                    </div>
+                    <div class="best-seller-des">
+                        <h3>Boho Bangle Bracelet</h3>
+                        <p class="best-seller-rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    </div>
+                </div>
+                <!--Seller Ends-->
+                <div class="seller">
+                    <div class="best--seller-product-img">
+                        <img src="./image/prod15.jpg" alt="">
+                    </div>
+                    <div class="best-seller-des">
+                        <h3>Black Hoodie</h3>
+                        <p class="best-seller-rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    </div>
+                </div>
+                <!--Seller Ends-->
+                <div class="seller">
+                    <div class="best--seller-product-img">
+                        <img src="./image/prod16.jpg" alt="">
+                    </div>
+                    <div class="best-seller-des">
+                        <h3>Bright Red Bag</h3>
+                        <p class="best-seller-rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    </div>
+                </div>
+                <!--Seller Ends-->
+            </div>
+        </div>
+
+
+        <!--Products_Section-->
+        <div class="products-section">
+
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod10.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Blue Denim Jeans</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod02.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">DNK Blue Shoes</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod03.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Anchor Bracelet</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod04.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Boho Bangle Bracelet</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod05.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Dark Brown Jeans</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod06.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Dark Blue Denim Jeans</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod09.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Black Hoodie</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod17.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Blue Hoodie</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="product product01">
+                <div class="product-img">
+                    <img src="./image/prod16.jpg" alt="Shoes">
+                    <span class="badge">Sale!</span>
+                </div>
+                <div class="pro-des">
+                    <h2 id="product-title">Bright Red Bag</h2>
+                    <p class="product-gender">Men</p>
+                    <p class="price"><span style="color: rgba(49, 47, 47, 0.534);"><s>$150.00</s></span>$120.00</p>
+                    <p class="rating">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                </div>
+            </div>
+            <!--Product-->
+
+        </div>
+        <!--Prodcust-Section-Ends-->
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
