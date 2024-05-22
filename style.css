@@ -280,7 +280,7 @@
 }
 
 .main-products-container {
-    width: 1400px;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
