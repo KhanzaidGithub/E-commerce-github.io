@@ -5,10 +5,28 @@ hum.addEventListener('click', () => {
     hum.classList.toggle('active');
     offscreenmenu.classList.toggle('active');
 });
+//Home products link to main produst page
+let homeproducts = document.querySelectorAll('.home-products');
 
+homeproducts.forEach(element => {
+    element.addEventListener('click', () => {
+        window.location.href = 'http://127.0.0.1:5500/products.html';
+    })
+});
+//Home products page ends here
+//Onscroll Navbar starts
+let upsidearrow = document.getElementById('upside');
+upsidearrow.style.display = 'none'
+function navscroll() {
+    if (window.scrollY > 500) {
+        upsidearrow.style.display = 'block';
+    } else {
+        upsidearrow.style.display = 'none';
+    }
+}
+//Onscroll Navbar Ends Here
 
 // Products Search Input
-
 function search() {
     let input = document.getElementById('input').value.toLowerCase();
     let products = document.querySelectorAll('.product');
@@ -25,9 +43,15 @@ function search() {
         }
         document.getElementById('input').innerText = '';
     });
-
 };
+// Products Search Engine Function Ends Here
 
-function accessories() { };
+
+//products categorise by the name of Categories
+let productscategories = document.querySelectorAll('.product-category');
+function accessories() {
+    let chechcategory =  productscategories.innerText;
+   
+};
 function mens() { };
 function women() { };
