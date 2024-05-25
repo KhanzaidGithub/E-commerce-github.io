@@ -10,7 +10,7 @@ let homeproducts = document.querySelectorAll('.home-products');
 
 homeproducts.forEach(element => {
     element.addEventListener('click', () => {
-        window.location.href = './products';
+        window.location.href = 'https://khanzaidgithub.github.io/E-commerce-github.io/products.html';
     })
 });
 //Home products page ends here
