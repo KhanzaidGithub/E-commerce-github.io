@@ -10,7 +10,7 @@ let homeproducts = document.querySelectorAll('.home-products');
 
 homeproducts.forEach(element => {
     element.addEventListener('click', () => {
-        window.location.href = 'http://127.0.0.1:5500/products.html';
+        window.location.href = './products';
     })
 });
 //Home products page ends here
@@ -49,9 +49,6 @@ function search() {
 
 //products categorise by the name of Categories
 let productscategories = document.querySelectorAll('.product-category');
-function accessories() {
-    let chechcategory =  productscategories.innerText;
-   
-};
+function accessories() { };
 function mens() { };
 function women() { };
