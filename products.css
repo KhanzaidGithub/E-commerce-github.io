@@ -381,3 +381,30 @@
 }
 
 /*Footer Ends here*/
+#upside-div {
+    position: fixed;
+    bottom: 20px;
+    /* Adjust as needed */
+    right: 20px;
+    /* Adjust as needed */
+    z-index: 9999;
+    /* Ensure it's above other content */
+}
+
+#upside {
+    padding: 10px;
+    background-color: #0075BE;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-chevron-up {
+    font-size: 20px;
+    color: white;
+}
