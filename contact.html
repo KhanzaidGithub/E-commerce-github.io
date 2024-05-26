@@ -4,16 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ff35f48ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./mediaquery.css">
     <link rel="stylesheet" href="./contact.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="main-header">
+    <div class="header main-header">
+        <div class="nav container-fluid" id="nav">
+            <div style="display: flex;align-items: center;justify-content: space-between;width:40%;">
+                <div class="logo-img">
+                    <a href="./index.html"><img class="logo1" src="./images/logo1.png" alt="Logo1"></a>
+                </div>
+                <div class="menu" id="menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="./products.html">products</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center ;justify-content: space-between;width: 15%;">
+                <div class="menu" id="menu">
+                    <ul>
+                        <li><a href="./contact.html">Contact US</a></li>
+                    </ul>
+                </div>
+                <div class="nav-login-btn">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <div class="offscreenmenu container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="./products.html">products</a></li>
+                <li><a href="#">Mens</a></li>
+                <li><a href="./contact.html">Contact US</a></li>
+            </ul>
+        </div>
+        <nav>
+            <div class="mbl-logo-img">
+                <img src="./images/mbl-logo.png" alt="" class="mbllogo">
+            </div>
+            <div class="hum">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <!-- Navbar Ends Here -->
         <div class="header-content">
             <h1>Contact Us</h1>
         </div>
     </div>
+    <!-- After Hero Section -->
     <div class="after-hero-content">
         <div style="text-align: center; padding: 50px 0px;font-family:lato sans-serif;">
             <h4 style="color: black;font: size 18px;">Have any question?</h4>
@@ -48,7 +98,8 @@
                 <h2>You tell us. We listen.</h2>
                 <p class="form-sec-des">Welcome to our Contact Us page, where your voice matters. <br> Share your
                     thoughts, inquiries, or feedback
-                    with us, and we'll<br> attentively listen. Your input shapes our journey.<br> Get in touch today.
+                    with us, and we'll<br> attentively listen. Your input shapes our journey.<br> Get in touch
+                    today.
                 </p>
             </div>
             <div class="form-div">
@@ -62,6 +113,7 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
