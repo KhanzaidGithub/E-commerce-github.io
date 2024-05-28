@@ -1,0 +1,175 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Navbar Starts */
+.header {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(#17679691, rgba(0, 0, 0, 0.479)), url(./images/login-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: center center;
+}
+
+.nav {
+    display: flex;
+    padding: 0px 80px;
+    height: 90px;
+    justify-content: space-between;
+    background-color: #14639000;
+    flex-wrap: wrap;
+    align-items: center center;
+    color: white;
+    z-index: 999;
+}
+
+.logo1 {
+    width: 140px;
+    cursor: pointer;
+}
+
+.logo2 {
+    display: none;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    margin-left: 18px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #f2f5f8;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+
+.fa-user {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+/* mobile menu */
+.offscreenmenu ul li {
+    display: none;
+}
+
+.mbllogo {
+    display: none;
+}
+
+/* mobile menu */
+
+/*Header-Contnet*/
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.header-content h1 {
+    font-size: 66px;
+    color: white;
+    font-family: "lato", sans-serif;
+}
+
+/*Navbar ends here*/
+.container {
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+    gap: 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+}
+
+h2 {
+    padding: 10px 30px;
+    color: rgb(19, 110, 146);
+    font-size: 28px;
+    margin: auto;
+}
+
+#name {
+    padding: 10px;
+}
+
+#email {
+    padding: 10px;
+}
+
+#pass {
+    padding: 10px;
+}
+
+#reg {
+    padding: 10px 30px;
+    background-color: rgb(19, 110, 146);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* Sign Up ends */
+/* Login Starts  */
+h2 {
+    padding: 10px 30px;
+    color: rgb(19, 110, 146);
+    font-size: 28px;
+    margin: auto;
+}
+
+#login-name {
+    padding: 10px;
+}
+
+#login-email {
+    padding: 10px;
+}
+
+#login-pass {
+    padding: 10px;
+}
+
+#login {
+    padding: 10px 30px;
+    background-color: rgb(19, 110, 146);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+}
