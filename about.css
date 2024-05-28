@@ -93,3 +93,371 @@
     font-family: "lato", sans-serif;
     margin-top: 100px;
 }
+
+/*After Hero section*/
+.after-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 350px;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+
+.after-hero-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-left: 20px;
+    height: 330px;
+    width: 600px;
+}
+
+.after-hero-txt h1 {
+    font-size: 42px;
+    color: black;
+    line-height: 60px;
+}
+
+.after-hero-txt p {
+    font-size: 16px;
+    color: rgb(48, 44, 44);
+    line-height: 30px;
+}
+
+.after-hero-image {
+    width: 620px;
+
+}
+
+.after-hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/*After Hero Section Ends Here*/
+.our-tem-main-section {
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0px 100px 0px;
+
+}
+
+.our-team-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.our-team-text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    font-family: "lato", sans-serif;
+
+}
+
+.our-team-text h2 {
+    font-size: 42px;
+    color: black;
+    font-family: "lato", sans-serif;
+    margin: 15px;
+}
+
+.our-team-text p {
+    text-align: center;
+    line-height: 25px;
+    color: #333333;
+    font-size: 16px;
+}
+
+/*Our team images*/
+.our-team-members {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7f9;
+    width: 248px;
+    height: 248px;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid #cccccc81;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.member-img {
+    width: 100px;
+}
+
+.member-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "lato", sans-serif;
+    line-height: 30px;
+}
+
+.member-title {
+    margin-top: 10px;
+}
+
+.about-member p {
+    text-align: center;
+}
+
+/*Member Section Ends here*/
+/*Fixed Section starts*/
+.about-us-fixed-section {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(#17679691, rgba(0, 0, 0, 0.479)), url(./images/about-us-fixed.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    margin: 50px 0px;
+}
+
+.about-us-fixed-content {
+    width: 400px;
+    background-color: #f5f7f9;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-us-fixed-content h2 {
+    font-size: 42px;
+    color: black;
+    font-family: "lato", sans-serif;
+    display: block;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+.fab {
+    color: #3f3620;
+    font-size: 20px;
+}
+
+.fab:hover {
+    color: #0075be;
+}
+
+.line {
+    border-top: 1px solid rgba(0, 0, 0, 0.068);
+    width: 100%;
+}
+
+/*Fixed Section Ends here*/
+.after-fix-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 60px 0px;
+}
+
+.box {
+    width: 260;
+    height: 162;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img {
+    width: 52px;
+    height: 52px;
+    margin: 15px 0px;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-des h2 {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.box-des p {
+    text-align: center;
+    line-height: 20px;
+}
+
+/*Footer Section*/
+
+
+.footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+
+}
+
+.footer-hd {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.footer-logo {
+    height: 30px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-logo h4 {
+    margin-top: 40px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.forfemale ul li {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(139, 139, 139);
+}
+
+.formale ul li {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(139, 139, 139);
+}
+
+
+
+.email-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-us input {
+    padding: 12px 12px 12px 12px;
+    font-size: 16px;
+    line-height: 16px;
+    outline: none;
+}
+
+.email-us button {
+    padding: 16px 28px 16px 28px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #0075BE;
+    line-height: 14px;
+    width: 140px;
+    margin-top: 20px;
+}
+
+.email-us button:hover {
+    background-color: #03598f;
+}
+
+/*Footer Ends Here*/
+.bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: auto;
+    padding: 20px 150px;
+    border-top: 1px solid rgba(0, 0, 0, 0.068);
+}
+
+.bottom-footer .footer-left {
+    flex: 1;
+}
+
+.bottom-footer .footer-right {
+    display: flex;
+    gap: 30px;
+}
+
+.bottom-footer .footer-right a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.bottom-footer .footer-right a:hover {
+    color: black;
+}
+
+/*Upside Arrow*/
+#upside-div {
+    position: fixed;
+    bottom: 20px;
+    /* Adjust as needed */
+    right: 20px;
+    /* Adjust as needed */
+    z-index: 9999;
+    /* Ensure it's above other content */
+}
+
+#upside {
+    padding: 10px;
+    background-color: #0075BE;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-chevron-up {
+    font-size: 20px;
+    color: white;
+}

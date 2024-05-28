@@ -394,6 +394,11 @@
 }
 
 /*Main Fixed Section Ends Here*/
+.line {
+    border-top: 1px solid rgba(0, 0, 0, 0.068);
+    width: 100%;
+}
+
 /*After Main Fix Section*/
 .after-fix-section {
     display: flex;
@@ -434,10 +439,7 @@
 }
 
 /*Footer Section*/
-.line {
-    border-top: 1px solid rgba(0, 0, 0, 0.068);
-    width: 100%;
-}
+
 
 .footer {
     width: 80%;
