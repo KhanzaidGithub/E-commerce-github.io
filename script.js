@@ -47,24 +47,32 @@ function search() {
 // Products Search Engine Function Ends Here
 
 
-//products categorise by the name of Categories
-// let eachproducts = document.querySelectorAll('.product-pg');
-// function mens() {
-//     eachproducts.forEach(element => {
-//         let category = element.querySelector('.product-category');
-//         if (category.textContent !== 'Men') {
-//             eachproducts.style.display = 'none';
-//         }
-//     })
-// }
-let products = document.querySelectorAll('.product-pg');
+// products categorise by the name of Categories
 
+let eachproducts = document.querySelectorAll('.product-pg');
 function mens() {
-    products.forEach(eachproducts => {
-        let category = eachproducts.querySelector('.product-category');
+    eachproducts.forEach(element => {
+        let category = element.querySelector('.product-category');
         if (category.textContent !== 'Men') {
-            eachproducts.style.display = 'none';
+            element.classList.toggle('hide');
         }
     })
 }
+//Women
+function women() {
+    eachproducts.forEach(element => {
+        let category = element.querySelector('.product-category');
+        if (category.textContent !== 'Women') {
+            element.classList.toggle('hide');
+        }
+    })
+}
+//All
+let all = document.getElementById('allproducts');
+all.addEventListener('click', () => {
+    eachproducts.style.display = 'none';
+});
+
+
+
 
