@@ -48,7 +48,23 @@ function search() {
 
 
 //products categorise by the name of Categories
-let productscategories = document.querySelectorAll('.product-category');
-function accessories() { };
-function mens() { };
-function women() { };
+// let eachproducts = document.querySelectorAll('.product-pg');
+// function mens() {
+//     eachproducts.forEach(element => {
+//         let category = element.querySelector('.product-category');
+//         if (category.textContent !== 'Men') {
+//             eachproducts.style.display = 'none';
+//         }
+//     })
+// }
+let products = document.querySelectorAll('.product-pg');
+
+function mens() {
+    products.forEach(eachproducts => {
+        let category = eachproducts.querySelector('.product-category');
+        if (category.textContent !== 'Men') {
+            eachproducts.style.display = 'none';
+        }
+    })
+}
+
