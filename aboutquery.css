@@ -1,37 +1,34 @@
-/* 
-Mobile devices – 320px — 480px.
-iPads, Tablets – 481px — 768px.
-Small screens, laptops – 769px — 1024px.
-Desktops, large screens – 1025px — 1200px.
-Extra large screens, TV – 1201px, and more.
-*/
+@media (max-width: 700px) {
+    .after-hero-section {
+        width: 80%;
+        margin: auto;
+        padding: 0px;
+        flex-direction: column;
+    }
 
-/*Humburger Button*/
-/*This is for media query*/
-.humburger {
-    display: flex;
-    flex-direction: column;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    display: none;
-}
+    .after-hero-image {
+        width: 400px;
+    }
 
-.bar {
-    background-color: white;
-    height: 5px;
-    width: 100%;
-    margin-top: 5px;
-    border-radius: 8px;
-}
+    .after-hero-txt {
+        text-align: center;
+    }
 
-@media (max-width: 480px) {
-    .header.main-header {
-        background-image: linear-gradient(#176796b0, rgba(0, 0, 0, 0.39)), url(./images/home1.jpg);
+    .our-tem-main-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
+    .our-team-members {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
 
+
+    /* This is for Mobile humburger */
     .nav.container-fluid {
         display: none;
     }
@@ -139,62 +136,4 @@ Extra large screens, TV – 1201px, and more.
         top: 50%;
         transform: translate(-50%, -50%)rotate(90deg);
     }
-
-    /*  */
-    .header .header-content {
-        top: 20%;
-        left: 0px;
-    }
-
-    .header-txt .header-txt1 {
-        color: white;
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .header-txt .header-txt2 {
-        color: rgb(0, 0, 0);
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .header-btn-div {
-        width: 100%;
-    }
-
-    .header-btn-div .header-btn {
-        width: 80%;
-        margin: auto;
-        margin-left: 45px;
-        margin-top: 10px;
-    }
-
-    /* Main fixed Section Starts */
-    .main-fixed-section {
-        background-image: linear-gradient(to left, transparent, transparent 10%, #2e7db2 90%, #2e7db2), url(./images/fixed-banner.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 500px;
-        margin: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding: 0px 100px;
-    }
-
-    /* Main fixed Section Ends */
-    /* Contact Us starts */
-    .form-section{
-        width: 100%;
-        text-align: center;
-    }
-    
-    /* Contact Us Ends */
 }
-
-
-
-/*Next part*/
-
-/* @media screen and (min-width: 481px) and (max-width: 768px)  */

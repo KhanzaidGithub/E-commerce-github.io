@@ -2,7 +2,14 @@
     padding: 0px;
     margin: 0px;
 }
-
+/* for mobile search input */
+.formobileinput{
+    display: none;
+}
+.formobilesearch{
+    display: none;
+}
+/* for mobile search input */
 /*Navbar Starts*/
 .nav {
     display: flex;
@@ -144,6 +151,9 @@
 /*Categories Ends*/
 .best-seller-section {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .best-seller-section h2 {

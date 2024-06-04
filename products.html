@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3ff35f48ba.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./products.css">
-    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="./productsmediaquery.css">
     <title>Products</title>
 </head>
 
@@ -154,10 +154,13 @@
             </div>
         </div>
 
-
+   
         <!--Products_Section-->
         <div class="products-section">
-
+     <!-- this search bar is for mobile starts -->
+     <input type="text" placeholder="Search Products.." id="input" class="formobileinput">
+     <button id="search-btn" class="formobilesearch" onclick="search()"><i class="fa-solid fa-angle-right"></i></button>
+     <!-- this search bar is for mobile Ends -->
             <!--Product-->
             <div class="product product-pg">
                 <div class="product-img">

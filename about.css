@@ -103,7 +103,6 @@
     margin: auto;
     height: 350px;
     padding: 50px 0px;
-    flex-wrap: wrap;
 }
 
 .after-hero-txt {
@@ -130,7 +129,6 @@
 
 .after-hero-image {
     width: 620px;
-
 }
 
 .after-hero-image img {
