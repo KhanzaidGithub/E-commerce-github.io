@@ -185,7 +185,9 @@
 /* latest Products */
 .latest-products-main-section {
     display: flex;
-    width: 1180px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     margin: auto;
     gap: 20px;
     margin-top: 50px;
@@ -220,7 +222,6 @@
     background-position: center;
     display: flex;
     padding: 30px;
-    margin-bottom: 20px;
 }
 
 .latest-content {
@@ -337,7 +338,7 @@
     color: rgba(49, 47, 47, 0.534);
 }
 
-.price {}
+/* .price {} */
 
 .rating {
     display: flex;
@@ -524,7 +525,6 @@
     align-items: center;
     background-color: white;
     color: black;
-    padding: 10px 20px;
     margin: auto;
     padding: 20px 150px;
     border-top: 1px solid rgba(0, 0, 0, 0.068);

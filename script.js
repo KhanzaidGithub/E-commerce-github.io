@@ -68,10 +68,13 @@ function women() {
     })
 }
 //All
-let all = document.getElementById('allproducts');
-all.addEventListener('click', () => {
-    eachproducts.style.display = 'none';
-});
+function allproducts() {
+    let allproducts = document.querySelectorAll('.product-pg');
+    let productarray = Array.from(allproducts);
+    productarray.forEach(element => {
+        element.classList.toggle('allproductsblock');
+    });
+}
 
 
 

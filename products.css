@@ -2,13 +2,16 @@
     padding: 0px;
     margin: 0px;
 }
+
 /* for mobile search input */
-.formobileinput{
+.formobileinput {
     display: none;
 }
-.formobilesearch{
+
+.formobilesearch {
     display: none;
 }
+
 /* for mobile search input */
 /*Navbar Starts*/
 .nav {
@@ -231,6 +234,9 @@
     display: none;
 }
 
+.allproductsblock {
+    display: block;
+}
 
 
 .badge {
