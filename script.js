@@ -76,6 +76,6 @@ function allproducts() {
     });
 }
 
-
+// AddToCart Function
 
 

@@ -135,4 +135,42 @@
         top: 50%;
         transform: translate(-50%, -50%)rotate(90deg);
     }
+
+    /* Footer section */
+    /* Footer starts */
+    .saleline {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .saleline {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-bottom: 60px;
+    }
+
+    .footer-logo h4 {
+        font-size: 14px;
+    }
+
+    .email-us input {
+        width: 200px;
+    }
+
+    .bottom-footer {
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    .footer-left {}
+
+    /* Footer Ends */
 }

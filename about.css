@@ -322,8 +322,15 @@
     line-height: 20px;
 }
 
+/* Footer Section Starts */
 /*Footer Section*/
-
+.saleline {
+    width: 80%;
+    font-size: 26px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .footer {
     width: 80%;
@@ -407,11 +414,9 @@
     align-items: center;
     background-color: white;
     color: black;
-    padding: 10px 20px;
     margin: auto;
     padding: 20px 150px;
     border-top: 1px solid rgba(0, 0, 0, 0.068);
-    flex-wrap: wrap;
 }
 
 .bottom-footer .footer-left {
@@ -421,6 +426,7 @@
 .bottom-footer .footer-right {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .bottom-footer .footer-right a {
@@ -432,6 +438,8 @@
 .bottom-footer .footer-right a:hover {
     color: black;
 }
+
+/* Footer section ends  */
 
 /*Upside Arrow*/
 #upside-div {

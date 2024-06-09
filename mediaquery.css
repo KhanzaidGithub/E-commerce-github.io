@@ -184,21 +184,25 @@ Extra large screens, TV – 1201px, and more.
     }
 
     .latest-products-main-section {
-        width: 400px;
+        width: 300px;
+        margin: 0px;
         flex-wrap: wrap;
         flex-direction: column;
     }
 
     .latest-product1 {
-        width: 400px;
+        margin: 0px;
+        width: 300px;
     }
 
     .latest-product2 {
-        width: 400px;
+        margin: 0px;
+        width: 300px;
     }
 
     .latest-product3 {
-        width: 400px;
+        margin: 0px;
+        width: 300px;
     }
 
     /* Lated Products Section Starts Here*/
@@ -212,14 +216,36 @@ Extra large screens, TV – 1201px, and more.
 
     /* Main fixed Section Ends */
     /* Contact Us starts */
-    .form-section {
-        width: 100%;
-        text-align: center;
+ 
+
+    .form {
+        width: 300px;
     }
 
     /* Contact Us Ends */
 
     /* Footer starts */
+    .saleline {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-bottom: 60px;
+    }
+
+    .footer-logo h4 {
+        font-size: 14px;
+    }
+
+    .email-us input {
+        width: 200px;
+    }
+
     .bottom-footer {
         width: 100%;
         padding: 0px;
